@@ -1,0 +1,15 @@
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/nutrinow-logo-nobg.png"
+  remove_alpha_ios: true
+  background_color_ios: "#ffffff"
+  web:
+    generate: true
+    image_path: "assets/icon/nutrinow-logo-nobg.png"
+    background_color: "#ffffff"
+    theme_color: "#1A434E"
+  windows:
+    generate: true
+  macos:
+    generate: true

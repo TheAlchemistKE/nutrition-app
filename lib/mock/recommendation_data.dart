@@ -1,0 +1,3 @@
+var recommendData = [];
+
+var suggestedRecommendationData = [];

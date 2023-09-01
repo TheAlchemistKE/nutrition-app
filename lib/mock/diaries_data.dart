@@ -1,0 +1,72 @@
+import 'package:nutrinowapp/helper/diary_model_type.dart';
+import 'package:nutrinowapp/models/diary/diary_kind_model.dart';
+
+var diariesData = [
+  DiaryKindModel(
+    id: 1,
+    name: 'Food Diary',
+    img: 'images/diary/food-diary.jpg',
+    iconImg: 'images/platform/icons/food-icon.png',
+    thumbnail: 'images/diary/food-diary.jpg',
+    overlayColor: '000000',
+    nameSize: 12,
+    nameColor: 'FFFFFF',
+    type: DiaryModelTypeHelper.fromString('food'),
+  ),
+  DiaryKindModel(
+    id: 2,
+    name: 'Heart Diary',
+    img: 'images/diary/heart-diary.jpg',
+    iconImg: 'images/platform/icons/heart-icon.png',
+    thumbnail: 'images/diary/heart-diary.jpg',
+    overlayColor: '764B4B',
+    nameSize: 12,
+    nameColor: 'FFFFFF',
+    overlayOpacity: 0.68,
+    type: DiaryModelTypeHelper.fromString('generic'),
+    tipOfTheDay:
+        'Keep smiling and stay happy, that’s all to keep your heart healthy.',
+    updateButtonText: 'Update Heart Rate',
+    quoteOfTheDay:
+        '"You live longer and healthier if you have a heart that beats without any complications" - unknown',
+    updateButtonCommitText: 'Update Heart Rate',
+    updateSectionTitleText: 'Update your Heart rate',
+    tipOfTheDayIcon: 'images/platform/icons/hint-icon.png',
+  ),
+  DiaryKindModel(
+    id: 3,
+    name: 'Weight Diary',
+    img: 'images/diary/weight-diary.jpg',
+    iconImg: 'images/platform/icons/weight-icon.png',
+    thumbnail: 'images/diary/weight-diary.jpg',
+    overlayColor: '000000',
+    nameSize: 12,
+    nameColor: 'FFFFFF',
+    type: DiaryModelTypeHelper.fromString('generic'),
+    tipOfTheDay: 'Do a 30minute exercise and walk for 3km',
+    updateButtonText: 'Update Weight',
+    quoteOfTheDay:
+        '"It does not matter how slow you go, as long as you do not stop" - Confucius',
+    updateButtonCommitText: 'Update Weight',
+    updateSectionTitleText: 'Update your weight',
+    tipOfTheDayIcon: 'images/platform/icons/hint-icon.png',
+  ),
+  DiaryKindModel(
+    id: 4,
+    name: 'Sleep Diary',
+    img: 'images/diary/sleep-diary.jpeg',
+    thumbnail: 'images/diary/sleep-diary.jpeg',
+    iconImg: 'images/platform/icons/sleep-icon.png',
+    overlayColor: '000000',
+    nameSize: 12,
+    nameColor: 'FFFFFF',
+    type: DiaryModelTypeHelper.fromString('generic'),
+    tipOfTheDay: 'Do a 30minute exercise and walk for 3km',
+    updateButtonText: 'Update Sleep Hours',
+    quoteOfTheDay:
+        '"It does not matter how slow you go, as long as you do not stop" - Confucius',
+    updateButtonCommitText: 'Update Sleep Hours',
+    updateSectionTitleText: 'Update your Sleep Hours',
+    tipOfTheDayIcon: 'images/platform/icons/hint-icon.png',
+  ),
+];
